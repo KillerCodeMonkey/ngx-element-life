@@ -1,4 +1,4 @@
-# ngx-element-life [![Build Status](https://travis-ci.org/KillerCodeMonkey/ngx-element-life.svg?branch=master)](https://travis-ci.org/KillerCodeMonkey/ngx-element-life)
+# ngx-element-life ![Build Status](https://github.com/KillerCodeMonkey/ngx-element-life/workflows/CI/badge.svg)
 
 An angular directive to easy listen when elements get initalised or destroyed.
 
