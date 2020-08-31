@@ -17,7 +17,7 @@
   },
   "scripts": {
     "lint": "tslint --force \"src/**/*.ts\"",
-    "build": "ng-packagr --prod -p package.json",
+    "build": "ng-packagr -p package.json",
     "pretest": "npm run lint",
     "test": "./node_modules/.bin/karma start"
   },
