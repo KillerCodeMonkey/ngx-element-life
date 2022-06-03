@@ -2,7 +2,7 @@
   "compilerOptions": {
     "strict": true,
     "alwaysStrict": true,
-    "target": "es5",
+    "target": "es2015",
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": false,
@@ -29,6 +29,8 @@
   ],
   "angularCompilerOptions": {
     "strictMetadataEmit": true,
-    "skipTemplateCodegen": true
+    "skipTemplateCodegen": true,
+    "strictTemplates": true,
+    "alwaysStrict": true
   }
 }

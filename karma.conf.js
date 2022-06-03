@@ -6,7 +6,7 @@ module.exports = function (config) {
   const _config = {
     basePath: '',
 
-    plugins: ['karma-coverage-istanbul-reporter', 'karma-chrome-launcher', 'karma-mocha-reporter', karmaWebpack, 'karma-sourcemap-loader', 'karma-jasmine'],
+    plugins: ['karma-chrome-launcher', 'karma-mocha-reporter', karmaWebpack, 'karma-sourcemap-loader', 'karma-jasmine'],
 
     frameworks: ['jasmine'],
 
@@ -35,13 +35,6 @@ module.exports = function (config) {
     autoWatch: false,
     browsers: ['ChromeHeadless'],
     singleRun: true
-  }
-
-  _config.reporters.push('coverage-istanbul')
-
-  _config.coverageIstanbulReporter = {
-    fixWebpackSourcePaths: true,
-    reports: ['text-summary']
   }
 
   config.set(_config)
